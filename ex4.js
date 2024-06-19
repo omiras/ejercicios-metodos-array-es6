@@ -6,9 +6,8 @@ function tempMinMax() {
   return [-1, 20];
 }
 
-let temp = tempMinMax();
-let tempMin = temp[0];
-let tempMax = temp[1];
+let [tempMin, tempMax] = tempMinMax();
+
 
 console.log(tempMin, tempMax); // Funciona, forma ES5
 
