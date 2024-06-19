@@ -8,7 +8,7 @@ let puedesPasar = false;
 let edad = 21;
 
 if (edad >= 18) {
-    let puedesPasar = true;
+    puedesPasar = true;
 }
 
 console.log(puedesPasar) // Debería ser true pero vale false. ¿por qué?

@@ -3,7 +3,7 @@
  */
 
 let edad = 21;
-let mensaje;
+let mensaje = edad<18 ? "No puedes pasar" : "Puedes pasar";
 
 if (edad >= 18) {
     mensaje = "Puedes pasar";
