@@ -6,13 +6,13 @@
 
 let numeros = [1, 2, 3];
 
-let nuevoArray = numeros.map(/** TODO */);
+let nuevoArray = numeros.map(m => m - 1);
 console.log("Apartado A: ", nuevoArray); // [0 , 1, 2];
 
 // B) Usa la función map para transformar a mayúsculas todos los strings de este array
 let animales = ["vertín, bigotes"];
-let nuevosAnimales; // TODO
-// console.log("Apartado B: ", nuevosAnimales) // ["VERTÍN, BIGOTES"]
+let nuevosAnimales = animales.map(a => a.toUpperCase()); // TODO
+console.log("Apartado B: ", nuevosAnimales) // ["VERTÍN, BIGOTES"]
 
 
 // C) Usa la función map para actualizar con la fecha de hoy (new Date().toLocaleString()) la propiedad ultimaVisita de todos los pacientes de una clínica dental
