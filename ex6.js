@@ -17,6 +17,8 @@ arr.map(function(element, index, array){
 
 function removeEveryOther(arr) {
     //your code here
+    // Miraos si el índice que recorremos es par. Si es así, index% 2 ==0 se evalúa como true, entonces, nos quedamos con el elemento del array. Si el índice es impar, index % 2 == 0 se evalúa como false y entonces no nos quedamos con ese elemento del array
+    return arr.filter((elem, index) => index % 2 == 0)
 }
 
 console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']), ['Hello', 'Hello Again']);
