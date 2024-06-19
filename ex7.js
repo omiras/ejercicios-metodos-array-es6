@@ -20,4 +20,4 @@ console.log(calcularEdad({
 console.log(calcularEdad({
     nombre: 'Maria',
     nacimiento: '2003'
-})); // { nombre: 'Maria', nacimiento: '2003', edad: edad: el valor debería ser el año actual en el que estamos menos la edad de nacimiento de Maria}
+})); // { nombre: 'Maria', nacimiento: '2003', edad: el valor debería ser el año actual en el que estamos menos la edad de nacimiento de Maria}
